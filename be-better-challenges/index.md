@@ -1,4 +1,4 @@
-# Be Better Challengs
+# Be Better Challenges
 
 ## Welcome To a Better You.
 Be better challenges are daily tasks that are intended to improve your life. Be better challenges can be open to interpretation. You must accomplish each task in a way that makes sense to you. Some challenges may be more difficult than others. Don’t be discouraged if you can’t finish all your challenges. There’s always tomorrow! Please remember, Be better challenges are meant to improve you, so please don’t harm yourself or others, or violate any laws, rules or norms while completing challenges. Thank you! I look forward to the better you.
