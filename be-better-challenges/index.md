@@ -4,7 +4,7 @@ Be better challenges are daily tasks that are intended to improve your life by r
 
 ### Disclaimer
 
-Be Better Challenges are for fun and entertainment only. All interactions with the Be Better Challenges app are voluntary, and I make no warranties guarantees or promises. I accept no responsibility for any damage or loss to person or property incurred while using this app. Please abide by all laws, rules and norms that apply.
+Be Better Challenges are for fun and entertainment only. All interactions with the Be Better Challenges app are voluntary. I make no warranties, guarantees, or promises. I accept no responsibility for any damage or loss to person or property incurred while using this app. Please abide by all laws, rules and norms that apply.
 
 ### Privacy Policy
 
