@@ -1,6 +1,6 @@
 ## Be Better Challenges
 
-Be better challenges are daily tasks that are intended to improve your life. Be better challenges can be open to interpretation. You must accomplish each task in a way that makes sense to you. Some challenges may be more difficult than others. Don’t be discouraged if you can’t finish all your challenges. There’s always tomorrow!
+Be better challenges are daily tasks that are intended to improve your life by raising your awareness. Be better challenges can be open to interpretation. You must accomplish each task in a way that makes sense to you. Some challenges may be more difficult than others. Don’t be discouraged if you can’t finish all your challenges. There’s always tomorrow!
 
 ### Disclaimer
 
