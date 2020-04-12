@@ -13,6 +13,7 @@ body {
   font-weight: 400;
   line-height: 1.65;
   color: #333;
+  background: none;
 }
 
 p {margin-bottom: 1.15rem;}
@@ -20,14 +21,13 @@ p {margin-bottom: 1.15rem;}
 h1, h2, h3, h4, h5 {
   margin: 2.75rem 0 1.05rem;
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.15;
 }
 
 h1 {
   margin-top: 0;
   font-size: 3.052em;
-  background: none;
 }
 
 h2 {font-size: 2.441em;}
@@ -41,7 +41,7 @@ h5 {font-size: 1.25em;}
 small, .text_small {font-size: 0.8em;}
 
 #header_wrap {
-  background: #ff6600;
+  background: #ff5500;
 }
 
 #project_title {
@@ -53,7 +53,7 @@ small, .text_small {font-size: 0.8em;}
 }
 
 #main_content_wrap {
-  background: #f2f2f2;
+  background: #ffffff;
   border-top: none;
   border-bottom: 1px solid #111;
 }
