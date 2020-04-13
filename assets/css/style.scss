@@ -3,7 +3,7 @@
 
 $orange: #ff5500;
 $lt-gray: #efefef;
-$green: #52AA7F;
+$teal: #00AEBA;
 $black: #000000;
 $white: #ffffff;
 
@@ -96,8 +96,8 @@ header, footer {
   &.gray {
     background-color: $lt-gray;
   }
-  &.green {
-    background-color: $green;
+  &.teal {
+    background-color: $teal;
   }
   &.black {
     background-color: $black;
