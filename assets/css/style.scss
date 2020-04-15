@@ -56,6 +56,15 @@ a {
   font-weight: 700;
 }
 
+[href^="http"]:not([href*="kingpixel.com"])::after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  content: '(external link)';
+  white-space: nowrap;
+}
+
 ul {
   padding-left: 1.25em;
 }
