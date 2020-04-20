@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Be Better Challenges
 ---
 <div class="row orange">
     <div class="img-left">
