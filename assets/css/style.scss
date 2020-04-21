@@ -1,9 +1,9 @@
 ---
 ---
 
-$orange: #ff5500;
-$lt-gray: #efefef;
-$blue: #34adbc;
+$primary: #ff5500;
+$secondary: #34adbc;
+$alternate: #efefef;
 $black: #000000;
 $white: #ffffff;
 
@@ -99,13 +99,13 @@ header, footer {
 
 .row {
   &.primary {
-    background-color: $orange;
+    background-color: $primary;
   }
   &.alternate {
-    background-color: $lt-gray;
+    background-color: $alternate;
   }
   &.secondary {
-    background-color: $blue;
+    background-color: $secondary;
   }
   &.inverse {
     background-color: $black;
@@ -277,7 +277,7 @@ header, footer {
 }
 
 #footer_wrap {
-  background-color: $orange;
+  background-color: $primary;
   padding: 2rem 0;
 }
 
