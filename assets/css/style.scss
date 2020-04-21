@@ -126,6 +126,15 @@ header, footer {
     box-shadow: 1rem 1rem 0 0 rgba( 0,0,0,.5 );
    
   }
+  .sub-heading {
+    text-align: center;
+    .copy {
+      padding: 1.75rem;
+    }
+    h2, p {
+      margin: 0;
+    }
+  }
   .img-left, .img-right, .img-center {
     display: flex;
     flex-direction: column;
@@ -166,6 +175,7 @@ header, footer {
   .image {
     img {
       max-width: 100%;
+      margin-top: 0;
     }
   }
   .copy {
@@ -178,6 +188,13 @@ header, footer {
 @media (min-width: 50em) {
 
   .row {
+    .sub-heading {
+      .copy {
+        max-width: 45rem;
+        margin: 0 auto;  
+        padding: 3rem 0;
+      }
+    }
     .img-left, .img-right, .img-center {
       flex-direction: row;
       max-width: 45rem;
