@@ -3,7 +3,7 @@
 
 $orange: #ff5500;
 $lt-gray: #efefef;
-$teal: #00AEBA;
+$blue: #34adbc;
 $black: #000000;
 $white: #ffffff;
 
@@ -99,16 +99,16 @@ header, footer {
 }
 
 .row {
-  &.orange {
+  &.primary {
     background-color: $orange;
   }
-  &.gray {
+  &.alternate {
     background-color: $lt-gray;
   }
-  &.teal {
-    background-color: $teal;
+  &.secondary {
+    background-color: $blue;
   }
-  &.black {
+  &.inverse {
     background-color: $black;
     color: $white;
     a {
@@ -121,6 +121,11 @@ header, footer {
 }
 
 .row {
+  .shadow img
+  {
+    box-shadow: 1rem 1rem 0 0 rgba( 0,0,0,.5 );
+   
+  }
   .img-left, .img-right, .img-center {
     display: flex;
     flex-direction: column;
@@ -159,6 +164,9 @@ header, footer {
   text-align: center;
   padding: 1.75rem;
   .image {
+    img {
+      max-width: 100%;
+    }
   }
   .copy {
     h2 {
@@ -180,8 +188,11 @@ header, footer {
         &.start {
           align-self: flex-start;
         }
-        &.end{
+        &.end {
           align-self: flex-end;
+          img {
+            margin-bottom: 0;
+          }
         }
         img {
           display: block;
@@ -218,7 +229,13 @@ header, footer {
     padding: 6rem 0;
     text-align: center;
     .image {
+      img {
+        max-width: 30rem;
+      }
       margin: 0;
+      &+.copy {
+        margin-top: 1.75rem;
+      }
     }
     .copy {
       padding: 0;

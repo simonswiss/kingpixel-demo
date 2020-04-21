@@ -2,7 +2,7 @@
 layout: default
 title: Be Better Challenges
 ---
-<div class="row orange">
+<div class="row primary">
     <div class="img-left">
         <div class="image">
             <img alt="Be Better Bee" src="/images/bee.png" width="162" height="191">
