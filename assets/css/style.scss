@@ -263,6 +263,8 @@ header, footer {
     padding: 6rem 0;
     text-align: center;
     .image {
+
+      max-width: 100%;
       img {
         max-width: 30rem;
       }
