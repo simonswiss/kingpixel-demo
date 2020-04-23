@@ -142,9 +142,16 @@ header, footer {
     align-items: stretch;
     padding: 0 1.75rem;
     .image {
+      max-width: 100%;
       img {
+        max-width: 100%;
         display: block;
-        margin: 1.75rem auto 0;
+        margin: 1.75rem auto;
+      }
+      &.end {
+        img {
+          margin-bottom: 0;
+        }
       }
     }
     .copy {
@@ -203,6 +210,7 @@ header, footer {
       padding: 0;
       align-items: center;
       .image {
+        max-width: 22.5rem;
         &.start {
           align-self: flex-start;
         }
@@ -214,6 +222,7 @@ header, footer {
         }
         img {
           display: block;
+          max-width: none;
         }
       }
       .copy {
@@ -237,6 +246,13 @@ header, footer {
 
   .row .img-left {
     .copy {
+      order: 2;
+      margin: 0 0 0 3rem;
+    }
+  }
+
+  .row .img-right {
+    .image {
       order: 2;
       margin: 0 0 0 3rem;
     }
