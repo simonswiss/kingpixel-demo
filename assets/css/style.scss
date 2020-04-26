@@ -155,7 +155,7 @@ header, footer {
       }
     }
     .copy {
-      h2 {
+      h2,h3 {
         margin-top: 1.75rem;
       }
       .greet {
@@ -223,6 +223,7 @@ header, footer {
         img {
           display: block;
           max-width: none;
+          margin: 6rem 0;
         }
       }
       .copy {
@@ -260,23 +261,26 @@ header, footer {
 
   .row .img-center {
     flex-direction: column;
-    padding: 6rem 0;
     text-align: center;
     .image {
-
+      margin: 0;
       max-width: 100%;
       img {
         max-width: 30rem;
       }
-      margin: 0;
       &+.copy {
-        margin-top: 1.75rem;
       }
     }
     .copy {
       padding: 0;
       margin: 0;
       max-width: 30rem;
+      &:last-child {
+        margin-bottom: 6rem;
+      }
+      &:first-child {
+        margin-top: 6rem;
+      }
     }
   }
 
