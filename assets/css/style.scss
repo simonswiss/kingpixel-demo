@@ -153,9 +153,14 @@ header, footer {
           margin-bottom: 0;
         }
       }
+      &.start {
+        img {
+          margin-top: 0;
+        }
+      }
     }
     .copy {
-      h2,h3 {
+      &>:first-child {
         margin-top: 1.75rem;
       }
       .greet {
@@ -166,7 +171,8 @@ header, footer {
         background-size: cover;
         text-align: center;
         line-height: 70px;
-        margin: 1.75rem auto 0;
+        margin-left: auto;
+        margin-right: auto;
       }
     }
   }
@@ -216,9 +222,6 @@ header, footer {
         }
         &.end {
           align-self: flex-end;
-          img {
-            margin-bottom: 0;
-          }
         }
         img {
           display: block;
