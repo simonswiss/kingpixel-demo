@@ -119,6 +119,10 @@ header, footer {
   }
 }
 
+img.circle {
+  border-radius: 100%;
+}
+
 .row {
   .shadow img
   {
@@ -189,7 +193,10 @@ header, footer {
   .image {
     img {
       max-width: 100%;
-      margin-top: 0;
+    }
+    &:first-child {
+      img {
+      }
     }
   }
   .copy {
@@ -271,7 +278,15 @@ header, footer {
       img {
         max-width: 100%;
       }
-      &+.copy {
+      &:first-child {
+        img {
+          margin-bottom: 1.75rem;
+        }
+      }
+      &:last-child {
+        img {
+          margin-top: 1.75rem;
+        }
       }
     }
     .copy {
