@@ -1,0 +1,74 @@
+---
+layout: default
+title: Portfolio
+---
+<div class="row secondary">
+    <div class="img-center">
+        <div class="copy shadow">
+            <div class="login-form">
+                <h2>Portfolio</h2>
+                <form class="form-vertical" onsubmit="return checkForm()">
+                    <label for="password">Please enter the password.</label>
+                    <input id="password" type="password" placeholder="Password" autocomplete="off" aria-controls="loginmessage">
+                    <input id="loginbutton" type="submit" value="Enter" aria-controls="loginmessage">
+                    <div id="loginmessage" role="region" aria-live="polite"></div>
+                </form>
+                <p>Please contact me at <a href="mailto:mike@kingpixel.com">mike@kingpixel.com</a> for access.</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script type="text/javascript">
+
+
+    var pwinput = document.querySelector("#password");
+    var loginmsg = document.querySelector("#loginmessage");
+
+	function loadPage(pwd) {
+
+		var hash= pwd;
+		hash= sha1(pwd);
+		var url= hash + "/index.html";
+
+        console.log("loading "+url)
+        fetch(url)
+            .then(response => {
+                if (!response.ok) {
+                    //parent.location.hash= hash;
+
+                    loginmsg.textContent="Incorrect Password.";
+                    pwinput.value="";
+                    pwinput.focus();
+                    
+                    throw new Error('Network response was not ok');
+                    return false;
+                }
+                else 
+                    window.location= url;
+            })
+            .catch(error => {
+                console.error('There has been a problem with your fetch operation:', error);
+            });
+    }
+
+	function checkForm() {
+
+        loginmsg.textContent="";
+        var pwd = pwinput.value;
+        if(!pwd)
+        {
+            loginmsg.textContent="Please enter a password.";
+	        pwinput.focus();
+        }
+        else
+            loadPage(pwd);
+        return false;
+	};
+
+	pwinput.focus();
+
+    
+
+	</script>

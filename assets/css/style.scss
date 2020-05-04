@@ -97,6 +97,38 @@ header, footer {
   margin: 0 auto;
 }
 
+.login-form {
+  background-color: $white;
+  padding: 1.75rem;
+}
+
+.form-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  label {
+    font-weight: 700;
+  }
+  label,input {
+    margin-bottom: 1.75rem;
+    font-size: 1em;
+  }
+  input[type='password'] {
+    min-height: 1.5rem;
+    padding: .25rem .5rem;
+    border: 2px solid $black;
+  }
+  input[type='submit'] {
+    border-radius: 0;
+    border: 0;
+    padding: .5rem .75rem;
+    min-width: 4.5rem;
+    background-color: $primary;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
+
 .row {
   &.primary {
     background-color: $primary;
@@ -124,13 +156,15 @@ img.circle {
 }
 
 .row {
-  .shadow img
-  {
-    -webkit-box-shadow: 1rem 1rem 0 0 rgba( 0,0,0,.3 );  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow:    1rem 1rem 0 0 rgba( 0,0,0,.3 );  /* Firefox 3.5 - 3.6 */
-    box-shadow:  1rem 1rem 0 0 rgba( 0,0,0,.3 );
-   
-  }
+  .shadow {
+    img,.login-form {
+      -webkit-box-shadow: 1rem 1rem 0 0 rgba( 0,0,0,.3 );  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+      -moz-box-shadow:    1rem 1rem 0 0 rgba( 0,0,0,.3 );  /* Firefox 3.5 - 3.6 */
+      box-shadow:  1rem 1rem 0 0 rgba( 0,0,0,.3 );
+    
+    }
+
+  } 
   .sub-heading {
     text-align: center;
     .copy {
@@ -167,6 +201,9 @@ img.circle {
       &>:first-child {
         margin-top: 1.75rem;
       }
+      &>:last-child {
+        margin-bottom: 1.75rem;
+      }
       .greet {
         width: 110px;
         height: 90px;
@@ -189,7 +226,7 @@ img.circle {
 
 .row .img-center {
   text-align: center;
-  padding: 1.75rem;
+  padding: 0 1.75rem;
   .image {
     img {
       max-width: 100%;
