@@ -47,7 +47,7 @@ small, .text_small {font-size: 0.8em;}
 p {
   margin: 1.5rem 0;
   font-size: 1em;
-  line-height: 1.25;
+  line-height: 1.55;
 }
 
 a {
@@ -321,6 +321,9 @@ img.circle {
 @media (min-width: 50em) {
 
   #header_wrap {
+    position: fixed;
+    top: 0;
+    width: 100%;
     h1 {
       line-height: 3rem;
       margin-left: 0;
@@ -345,7 +348,9 @@ img.circle {
 
     } 
   }
-
+  main {
+    margin-top: 3rem;
+  }
   .row {
     .sub-heading {
       .copy {
