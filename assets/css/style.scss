@@ -82,6 +82,10 @@ ul {
 
 #header_wrap {
   background: $white;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
   h1 {
     font-size: 1.25em;
     text-transform: uppercase;
@@ -130,6 +134,9 @@ ul {
   }
 }
 
+main {
+  margin-top: 3rem;
+}
 
 #project_title {
   color: #000000;
@@ -321,16 +328,12 @@ img.circle {
 @media (min-width: 50em) {
 
   #header_wrap {
-    position: fixed;
-    top: 0;
-    width: 100%;
     h1 {
       line-height: 3rem;
       margin-left: 0;
     }
     header {
-      display: flex;
-      
+      display: flex;      
     }
     nav {
       flex-grow: 2;
@@ -347,9 +350,6 @@ img.circle {
       }
 
     } 
-  }
-  main {
-    margin-top: 3rem;
   }
   .row {
     .sub-heading {
