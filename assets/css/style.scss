@@ -65,6 +65,8 @@ a {
   position: relative;
   right: auto;
   padding: .5em;
+  background-color: $alternate;
+  z-index: 999;
 }
 
 [href^="http"]:not([href*="kingpixel.com"])::after {
