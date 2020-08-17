@@ -9,4 +9,4 @@ gem "github-pages"
 gem "jekyll-theme-slate"
 # gem "rails"
 
-gem "kramdown", "~> 1.17"
+gem "kramdown", "~> 2.3"
