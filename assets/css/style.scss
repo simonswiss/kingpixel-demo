@@ -1,11 +1,12 @@
 ---
 ---
 
-$primary: #ff5500;
-$secondary: #34adbc;
+$primary: #ff5500; //#e84420; //accessible orange // #fe5001; //willpower orang
+$secondary: #00a2ea; //vivid cerulean
 $alternate: #efefef;
 $black: #000000;
 $white: #ffffff;
+$rostrbg: #e9e9e9;
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
@@ -50,9 +51,25 @@ p {
   line-height: 1.55;
 }
 
+p.lead {
+  font-size: 1.5em;
+}
+
 a {
   color: #000000;
   font-weight: 700;
+}
+
+a.button {
+  color: $black;
+  background-color: $white;
+  padding:.6rem 1em;
+  text-decoration: none;
+
+  -webkit-box-shadow: .5rem .5rem 0 0 rgba( 0,0,0,.3 );  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    .5rem .5rem 0 0 rgba( 0,0,0,.3 );  /* Firefox 3.5 - 3.6 */
+  box-shadow:  .25rem .25rem 0 0 rgba( 0,0,0,.3 );
+  
 }
 
 [href="#main_content"] {
@@ -203,6 +220,9 @@ header, footer {
   }
   &.secondary {
     background-color: $secondary;
+  } 
+  &.rostrbg {
+    background-color: $rostrbg;
   }
   &.inverse {
     background-color: $black;
@@ -225,14 +245,14 @@ img.circle {
     img,.login-form {
       -webkit-box-shadow: 1rem 1rem 0 0 rgba( 0,0,0,.3 );  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
       -moz-box-shadow:    1rem 1rem 0 0 rgba( 0,0,0,.3 );  /* Firefox 3.5 - 3.6 */
-      box-shadow:  1rem 1rem 0 0 rgba( 0,0,0,.3 );
+      box-shadow:  .5rem .5rem 0 0 rgba( 0,0,0,.3 );
     
     }
 
   } 
   .sub-heading {
-    text-align: center;
     .copy {
+      text-align: center;
       padding: 1.75rem;
     }
     h2, p {
@@ -263,6 +283,12 @@ img.circle {
       }
     }
     .copy {
+      small {
+        text-transform: uppercase;
+      }
+      h2 {
+        margin-top: 0;
+      }
       &>:first-child {
         margin-top: 1.75rem;
       }
@@ -286,7 +312,8 @@ img.circle {
 
 .row .img-right {
   .copy {
-  }
+    
+}
 }
 
 .row .img-center {
@@ -308,6 +335,18 @@ img.circle {
   }
 }
 
+.post {
+  & > * {
+    display: block;
+    margin: 2rem;
+  }
+  img {
+    width: 100%;
+  }
+  figcaption {
+    text-align: center;
+  }
+}
 
 .visually-hidden {
   position: absolute;
@@ -381,6 +420,9 @@ img.circle {
           margin: 6rem 0;
           image-rendering: -webkit-optimize-contrast;
         }
+        &.resize img {
+          max-width: 100%;
+        }
       }
       .copy {
         padding: 6rem 0;
@@ -448,7 +490,23 @@ img.circle {
     }
   }
 
+  .post {
+    & > * {
+      max-width: 45rem;
+      margin: 2rem auto;
+    }
+    .full-width {
+
+      max-width: 75rem;
+      margin: 2rem auto;
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+  }
 }
+
 
 .contact {
   display: flex;
