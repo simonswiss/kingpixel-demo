@@ -1,22 +1,14 @@
 ---
 layout: default
 ---
-<div class="row primary">
+<div class="row alternate" style="">
     <div class="sub-heading">
         <div class="copy">
-            <h2>Blog</h2>
+            <h2>{{ page.tags }}</h2>
         </div>
     </div>
 </div>
-<div class="row">
-  <div class="img-left">
-    <div class="copy">
-      <h3>{{ page.title }}</h3>
-      <p class="meta">{{ page.date | date_to_string }}</p>
-
-      <div class="post">
+<div class="post">
+      <small>Case Study: {{page.client}}</small>
         {{ content }}
-      </div>
-    </div>
-  </div>
 </div>

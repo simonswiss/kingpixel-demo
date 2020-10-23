@@ -1,0 +1,25 @@
+---
+layout: default
+title: UX
+---
+<div class="row primary">
+    <div class="sub-heading">
+        <div class="copy">
+            <h2>Portfolio</h2>
+        </div>
+    </div>
+</div>
+{% for post in site.posts %}
+  <div class="row {{post.bg}}">
+    <div class="img-center">
+        <div class="image resize">
+            <img alt="{{post.alt}}" src="/images/work/{{post.thumbnail}}">
+        </div> 
+        <div class="copy">
+            <small>{{post.tags}}</small>
+            <h2>{{post.title}}</em></h2>
+            <p> {{post.summary}}</p>
+        </div>
+    </div>
+</div>  
+{% endfor %}
