@@ -9,3 +9,4 @@ theme: jekyll-theme-slate
 
 plugins:
   - jekyll-postcss
+  - jekyll-purgecss

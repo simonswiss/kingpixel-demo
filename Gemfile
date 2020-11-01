@@ -13,4 +13,5 @@ gem "kramdown", "~> 2.3"
 
 group :jekyll_plugins do
     gem "jekyll-postcss"
+    gem "jekyll-purgecss"
 end
