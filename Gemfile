@@ -10,3 +10,7 @@ gem "jekyll-theme-slate"
 # gem "rails"
 
 gem "kramdown", "~> 2.3"
+
+group :jekyll_plugins do
+    gem "jekyll-postcss"
+end

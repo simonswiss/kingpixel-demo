@@ -10,7 +10,7 @@ title: Be Better Challenges
         <div class="copy">
             <h2>Be Better Challenges</h2>
             <p>Be better challenges are daily tasks that are intended to improve your life. Be better challenges encourage creativity through lateral thinking. Each day you will be given 5 new challenges. Some challenges may be more difficult than others, so you must be creative. Don’t be discouraged if you can’t finish all your challenges. There’s always tomorrow!</p>
-            <a href="https://apps.apple.com/us/app/be-better-challenges/id1492528710?mt=8" target="_blank" title="opens new window" rel="noopener"><img height="60" width="140" alt="Download Be Better Challenges on the App Store" src="/images/appstore.png"/></a> <a href="https://play.google.com/store/apps/details?id=com.kingpixel.be_better_challenges&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank" title="opens new window" rel="noopener"><img alt="Get Be Better Challenges on Google Play" height="60" width="155" src="/images/playstore.png"/></a>
+            <a class="inline-block" href="https://apps.apple.com/us/app/be-better-challenges/id1492528710?mt=8" target="_blank" title="opens new window" rel="noopener"><img height="60" width="140" alt="Download Be Better Challenges on the App Store" src="/images/appstore.png"/></a> <a class="inline-block" href="https://play.google.com/store/apps/details?id=com.kingpixel.be_better_challenges&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" target="_blank" title="opens new window" rel="noopener"><img alt="Get Be Better Challenges on Google Play" height="60" width="155" src="/images/playstore.png"/></a>
         </div>
     </div>
 </div>

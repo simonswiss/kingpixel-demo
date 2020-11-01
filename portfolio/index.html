@@ -4,13 +4,13 @@ title: Portfolio
 ---
 <div class="row secondary">
     <div class="img-center">
-        <div class="copy shadow">
-            <div class="login-form">
+        <div class="copy shadow shadow-none">
+            <div class="bg-white p-8 login-form ">
                 <h2>Portfolio</h2>
-                <form class="form-vertical" onsubmit="return checkForm()">
-                    <label for="password">Please enter the password.</label>
-                    <input id="password" type="password" placeholder="Password" autocomplete="off" aria-controls="loginmessage">
-                    <input id="loginbutton" type="submit" value="Enter" aria-controls="loginmessage">
+                <form class="form-vertical flex flex-col items-center" onsubmit="return checkForm()">
+                    <label class="mb-6" for="password">Please enter the password.</label>
+                    <input class="mb-6 px-2 py-1 border-2 border-solid border-black" id="password" type="password" placeholder="Password" autocomplete="off" aria-controls="loginmessage">
+                    <input class="mb-6 border-0 px-3 py-2 bg-primary uppercase appearance-none" id="loginbutton" type="submit" value="Enter" aria-controls="loginmessage">
                     <div id="loginmessage" role="region" aria-live="polite"></div>
                 </form>
                 <p>Please contact me at <a href="mailto:mike@kingpixel.com">mike@kingpixel.com</a> for access.</p>
