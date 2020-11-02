@@ -2,10 +2,11 @@ name: Mike Vogel
 markdown: kramdown
 
 title: Kingpixel
-description: 
-google_analytics: 
+description:
+google_analytics:
 show_downloads: false
 theme: jekyll-theme-slate
+exclude: []
 
 plugins:
   - jekyll-postcss
